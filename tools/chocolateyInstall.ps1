@@ -1,8 +1,8 @@
 $packageArgs = @{
   packageName    = "$env:ChocolateyPackageName"
   unzipLocation  = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-  url64bit       = 'https://github.com/roadrunner-server/roadrunner/releases/download/v2024.3.4/roadrunner-2024.3.4-windows-amd64.zip'
-  checksum64     = '99f67326a67643dd40180c621fa54272305b1d0506eadf72cd07e486ae39d1bb19752450aa9bf031ccfd4e39d73bf1678de879544083e3611c31d32c8a83eeb3'
+  url64bit       = 'https://github.com/roadrunner-server/roadrunner/releases/download/v2024.3.5/roadrunner-2024.3.5-windows-amd64.zip'
+  checksum64     = '08c348061208bb4d69475d7c835620b05c5cdf39cb5f7f9df078281b388d86f0bd59bf2ee289996883902658704dbdbff70329842fec7371f7571b23a73d0c7f'
   checksumType64 = 'sha512'
 }
 
