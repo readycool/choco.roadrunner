@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>roadrunner</id>
+    <version>2025.1.0</version>
+    <packageSourceUrl>https://github.com/readycool/choco.roadrunner</packageSourceUrl>
+    <owners>readycool</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>RoadRunner</title>
+    <authors>Spiral Scout</authors>
+    <projectUrl>https://roadrunner.dev/</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/readycool/choco.roadrunner/master/roadrunner.png</iconUrl>
+    <copyright>Copyright (c) Spiral Scout</copyright>
+    <licenseUrl>https://github.com/roadrunner-server/roadrunner/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/roadrunner-server/roadrunner</projectSourceUrl>
+    <docsUrl>https://docs.roadrunner.dev/docs</docsUrl>
+    <tags>roadrunner rr php server</tags>
+    <summary>High-performance PHP application server, load-balancer and process manager</summary>
+    <description>RoadRunner is an open-source (MIT licensed) high-performance PHP application server, load balancer, and process manager. It supports running as a service with the ability to extend its functionality on a per-project basis.
+
+RoadRunner includes PSR-7/PSR-17 compatible HTTP and HTTP/2 server and can be used to replace classic Nginx+FPM setup with much greater performance and flexibility.</description>
+    <releaseNotes>https://docs.roadrunner.dev/docs/releases/v2025-1-0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
