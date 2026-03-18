@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>roadrunner</id>
-    <version>2025.1.9</version>
+    <version>2025.1.11</version>
     <packageSourceUrl>https://github.com/readycool/choco.roadrunner</packageSourceUrl>
     <owners>readycool</owners>
 
@@ -19,11 +19,11 @@
     <projectSourceUrl>https://github.com/roadrunner-server/roadrunner</projectSourceUrl>
     <docsUrl>https://docs.roadrunner.dev/docs</docsUrl>
     <tags>roadrunner rr php server</tags>
-    <summary>High-performance PHP application server, load-balancer and process manager</summary>
-    <description>RoadRunner is an open-source (MIT licensed) high-performance PHP application server, load balancer, and process manager. It supports running as a service with the ability to extend its functionality on a per-project basis.
+    <summary>High-performance PHP application server, process manager written in Go and powered with plugins</summary>
+    <description>RoadRunner is an open-source (MIT licensed) high-performance PHP application server, process manager written in Go and powered with plugins ❤️. It supports running as a service with the ability to extend its functionality on a per-project basis with plugins.
 
-RoadRunner includes PSR-7/PSR-17 compatible HTTP and HTTP/2 server and can be used to replace classic Nginx+FPM setup with much greater performance and flexibility.</description>
-    <releaseNotes>https://docs.roadrunner.dev/docs/releases/v2025-1-9</releaseNotes>
+RoadRunner features a range of plugins, including HTTP(S)/2/3 and fCGI servers that are compatible with PSR-7/PSR-17 standards. This is just one of its many capabilities. It serves as an effective alternative to the traditional Nginx+FPM setup, providing improved performance and more flexibility.</description>
+    <releaseNotes>https://docs.roadrunner.dev/docs/releases/v2025-1-11</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
